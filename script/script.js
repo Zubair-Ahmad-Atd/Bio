@@ -23,10 +23,10 @@ navLinks.forEach((l) => {
 function sendMail(){
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "shaheentipu417@gmail.com",
-        Password : "1543C57632BD30A27713EAA9D7A83E0BC1F2",
-        To : 'zubairahmadatd@gmail.com',
-        From : "shaheentipu417@gmail.com",
+        Username : "",
+        Password : "",
+        To : '',
+        From : "",
         
         Subject : "This is the subject",
         Body : "Name :" + document.getElementById('name').value +
